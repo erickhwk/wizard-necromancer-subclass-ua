@@ -2,7 +2,7 @@
   "id": "wizard-necromancer-subclass-ua",
   "title": "Wizard: Necromancer (Unearthed Arcana)",
   "description": "Adds the Wizard: Necromancer subclass from Unearthed Arcana 8 (Sep 2025 playtest) to D&D 5e (2024 rules). Includes targeted JS automation for activated features (Grim Harvest, Grave Power, Undead Thralls, Harvest Undead, Extinguish Undead).",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "erickhwk",
@@ -10,7 +10,7 @@
     }
   ],
   "compatibility": {
-    "minimum": "12",
+    "minimum": "14",
     "verified": "14"
   },
   "relationships": {

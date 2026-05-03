@@ -21,7 +21,7 @@ features whose UX would otherwise require manual macros.
 
 ## Requirements
 
-- **Foundry VTT v12 or higher** (verified on v14).
+- **Foundry VTT v14 or higher** (the subclass does not surface in the Compendium Browser on v13 or earlier).
 - **D&D 5e system v4.0 or higher** (verified on v5.3.2).
 - The dnd5e SRD spell pack must be available for the Find Familiar (Undead)
   and Animate Dead (Undead Thralls) custom variants to reference base content.
