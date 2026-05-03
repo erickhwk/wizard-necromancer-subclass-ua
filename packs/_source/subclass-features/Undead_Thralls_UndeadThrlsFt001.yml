@@ -1,0 +1,126 @@
+_id: UndeadThrlsFt001
+name: Undead Thralls
+type: feat
+img: icons/magic/death/undead-zombie-grave-green.webp
+folder: NecFolder0000001
+sort: 400000
+ownership:
+  default: 0
+flags:
+  wizard-necromancer-subclass-ua:
+    feature: undead-thralls
+effects: []
+system:
+  description:
+    value: >
+      <p>You always have <em>Animate Dead</em> prepared, and you may cast it
+      once without expending a spell slot. You regain this free use after a Long
+      Rest.</p>
+
+      <p>When you begin casting <em>Animate Dead</em>, you may treat its
+      effective level as one higher than the slot used (or than the level it
+      would otherwise have, if you used the free use above).</p>
+
+      <p>In addition, whenever a Necromancy spell you cast using a spell slot
+      creates or summons one or more Undead, each such Undead gains the
+      following benefits.</p>
+
+      <p><strong>Undead Fortitude.</strong> Its hit point maximum and current
+      hit points are increased by an amount equal to the spell slot's level +
+      your Intelligence modifier, for the spell's duration.</p>
+
+      <p><strong>Withering Strike.</strong> When the Undead hits a creature with
+      an attack roll, it deals additional Necrotic damage equal to your
+      Intelligence modifier (minimum 1).</p>
+    chat: ''
+  source:
+    book: UA8 — Arcane Subclasses Update (18 Sep 2025)
+    page: ''
+    custom: ''
+    license: Fan Content Policy
+    rules: '2024'
+  type:
+    value: class
+    subtype: ''
+  requirements: Wizard 6 (Necromancer)
+  prerequisites:
+    level: 6
+  uses:
+    spent: 0
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+  activities:
+    UTFreeCast0000001:
+      _id: UTFreeCast0000001
+      type: cast
+      name: Free Cast (1/Long Rest)
+      img: ''
+      sort: 0
+      activation:
+        type: minute
+        value: 1
+        override: true
+        condition: ''
+      consumption:
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        chatFlavor: ''
+      duration:
+        units: ''
+        override: false
+        concentration: false
+      range:
+        units: ''
+        override: false
+      target:
+        prompt: false
+        template:
+          contiguous: false
+          units: ft
+          stationary: false
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      effects: []
+      flags: {}
+      spell:
+        ability: ''
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: null
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: false
+        uuid: >-
+          Compendium.wizard-necromancer-subclass-ua.subclass-features.Item.IcmZQxA4lnLd05rb
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777819097550
+  modifiedTime: 1777819097550
+  lastModifiedBy: s27KslIylCXYkeD1
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!UndeadThrlsFt001'

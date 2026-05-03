@@ -1,0 +1,47 @@
+_id: HarvestUnddFt001
+name: Harvest Undead
+type: feat
+img: icons/magic/death/hand-undead-skeleton-fire-pink.webp
+folder: NecFolder0000001
+sort: 500000
+ownership:
+  default: 0
+flags:
+  wizard-necromancer-subclass-ua:
+    feature: harvest-undead
+effects: []
+system:
+  description:
+    value: >
+      <p><strong>Trigger.</strong> Damage reduces you to the Bloodied state
+      without killing you outright.</p>
+
+      <p><strong>Response — Reaction.</strong> Choose one Undead you can see
+      that is under your control; that Undead drops to 0 hit points, and you
+      regain hit points equal to your wizard level.</p>
+    chat: ''
+  source:
+    book: UA8 — Arcane Subclasses Update (18 Sep 2025)
+    page: ''
+    custom: ''
+    license: Fan Content Policy
+    rules: '2024'
+  type:
+    value: class
+    subtype: ''
+  requirements: Wizard 10 (Necromancer)
+  prerequisites:
+    level: 10
+  uses:
+    max: ''
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777819029984
+  modifiedTime: 1777819029984
+  lastModifiedBy: s27KslIylCXYkeD1
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!HarvestUnddFt001'

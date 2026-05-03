@@ -1,0 +1,49 @@
+_id: GravePowerFeat01
+name: Grave Power
+type: feat
+img: icons/magic/death/hand-dirt-undead-zombie.webp
+folder: NecFolder0000001
+sort: 300000
+ownership:
+  default: 0
+flags:
+  wizard-necromancer-subclass-ua:
+    feature: grave-power
+effects: []
+system:
+  description:
+    value: >
+      <p>While your spellbook is in hand, two additional necromantic insights
+      take effect.</p>
+
+      <p><strong>Grave Resilience.</strong> Whenever you use Arcane Recovery,
+      your current Exhaustion level (if any) is reduced by 1.</p>
+
+      <p><strong>Overwhelming Necrosis.</strong> Damage from your wizard spells
+      and wizard features ignores Resistance to Necrotic damage.</p>
+    chat: ''
+  source:
+    book: UA8 — Arcane Subclasses Update (18 Sep 2025)
+    page: ''
+    custom: ''
+    license: Fan Content Policy
+    rules: '2024'
+  type:
+    value: class
+    subtype: ''
+  requirements: Wizard 6 (Necromancer)
+  prerequisites:
+    level: 6
+  uses:
+    max: ''
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777819004600
+  modifiedTime: 1777819004600
+  lastModifiedBy: s27KslIylCXYkeD1
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!GravePowerFeat01'

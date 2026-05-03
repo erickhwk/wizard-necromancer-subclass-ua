@@ -1,0 +1,20 @@
+type: Item
+folder: qVx4fCAl2eTLv4xV
+name: Necromancer
+color: null
+sorting: a
+_id: KHuqWHcla7hF17Hr
+description: ''
+sort: 0
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777779777051
+  modifiedTime: 1777779777051
+  lastModifiedBy: s27KslIylCXYkeD1
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!folders!KHuqWHcla7hF17Hr'

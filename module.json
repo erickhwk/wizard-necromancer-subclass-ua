@@ -1,0 +1,68 @@
+{
+  "id": "wizard-necromancer-subclass-ua",
+  "title": "Wizard: Necromancer (Unearthed Arcana)",
+  "description": "Adds the Wizard: Necromancer subclass from Unearthed Arcana 8 (Sep 2025 playtest) to D&D 5e (2024 rules). Includes targeted JS automation for activated features (Grim Harvest, Grave Power, Undead Thralls, Harvest Undead, Extinguish Undead).",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "erickhwk",
+      "url": "https://github.com/erickhwk"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.0.0",
+          "verified": "5.3.2"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "subclass-features",
+      "label": "Subclass & Features",
+      "path": "packs/subclass-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Wizard: Necromancer (UA)",
+      "sorting": "m",
+      "packs": ["subclass-features"]
+    }
+  ],
+  "url": "https://github.com/erickhwk/wizard-necromancer-subclass-ua",
+  "manifest": "https://github.com/erickhwk/wizard-necromancer-subclass-ua/releases/latest/download/module.json",
+  "download": "https://github.com/erickhwk/wizard-necromancer-subclass-ua/releases/latest/download/module.zip",
+  "bugs": "https://github.com/erickhwk/wizard-necromancer-subclass-ua/issues",
+  "readme": "https://github.com/erickhwk/wizard-necromancer-subclass-ua/blob/main/README.md"
+}

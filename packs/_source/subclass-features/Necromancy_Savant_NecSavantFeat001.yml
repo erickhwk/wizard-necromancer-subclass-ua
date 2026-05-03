@@ -1,0 +1,59 @@
+_id: NecSavantFeat001
+name: Necromancy Savant
+type: feat
+img: icons/magic/death/hand-undead-skeleton-fire-green.webp
+folder: NecFolder0000001
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+effects: []
+system:
+  description:
+    value: >
+      <p>Pick two wizard spells from the Necromancy school of level 2 or lower;
+      they are added to your spellbook for free.</p>
+
+      <p>Additionally, each time you reach a new spell-slot level in this class,
+      you may add one Necromancy-school wizard spell to your spellbook at no
+      cost. The spell you add must be of a level you can cast.</p>
+    chat: ''
+  source:
+    book: UA8 — Arcane Subclasses Update (18 Sep 2025)
+    page: ''
+    custom: ''
+    license: Fan Content Policy
+    rules: '2024'
+  type:
+    value: class
+    subtype: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  requirements: Wizard 3 (Necromancer)
+  prerequisites:
+    level: 3
+_stats:
+  coreVersion: '14.360'
+  systemId: null
+  systemVersion: null
+  createdTime: 1777819053403
+  modifiedTime: 1777819053403
+  lastModifiedBy: s27KslIylCXYkeD1
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!NecSavantFeat001'

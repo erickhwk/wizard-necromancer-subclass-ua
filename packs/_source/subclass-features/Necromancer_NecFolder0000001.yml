@@ -1,0 +1,9 @@
+_id: NecFolder0000001
+name: Necromancer
+type: Item
+folder: SubFolder0000001
+sorting: a
+sort: 100000
+color: null
+flags: {}
+_key: '!folders!NecFolder0000001'

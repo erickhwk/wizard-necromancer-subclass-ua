@@ -1,0 +1,146 @@
+_id: NecromancerSub01
+name: Necromancer
+type: subclass
+img: modules/wizard-necromancer-subclass-ua/assets/icons/subclass-necromancer.webp
+folder: ClsFolder0000001
+sort: 100000
+ownership:
+  default: 0
+flags: {}
+effects: []
+system:
+  description:
+    value: >
+      <p><em>You walk the boundary between life and death — not as a trespasser,
+      but as a student. Where others see endings, you see the architecture of
+      vitality itself: threads of force that bind the living and reach for the
+      lapsed. Cultures that brand necromancy as forbidden are not always wrong,
+      but they are rarely curious enough to know why.</em></p>
+
+      <p><em>You learn to siphon those threads, refine them into raw arcane
+      fuel, and lend them — briefly — to bodies the world has already finished
+      with.</em></p>
+    chat: ''
+  identifier: necromancer
+  source:
+    book: UA8 — Arcane Subclasses Update (18 Sep 2025)
+    page: ''
+    custom: ''
+    license: Fan Content Policy
+    rules: '2024'
+  classIdentifier: wizard
+  spellcasting:
+    progression: none
+    ability: ''
+    preparation:
+      formula: ''
+  advancement:
+    - _id: AdvGrantLevl3001
+      type: ItemGrant
+      level: 3
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.wizard-necromancer-subclass-ua.subclass-features.Item.NecSavantFeat001
+          - uuid: >-
+              Compendium.wizard-necromancer-subclass-ua.subclass-features.Item.NecSpellbookFt01
+        optional: false
+      title: Features
+      icon: ''
+      value: {}
+    - _id: AdvTraitLevl3001
+      type: Trait
+      level: 3
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - dr:necrotic
+        choices: []
+      title: Necrotic Resistance
+      icon: ''
+      value: {}
+    - _id: AdvSpellLevl3001
+      type: ItemGrant
+      level: 3
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.wizard-necromancer-subclass-ua.subclass-features.Item.VFqblP4ULwJiJFhj
+        optional: false
+        spell:
+          ability: []
+          preparation: prepared
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      title: Find Familiar (Undead)
+      icon: ''
+      value: {}
+    - _id: AdvGrantLevl6001
+      type: ItemGrant
+      level: 6
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.wizard-necromancer-subclass-ua.subclass-features.Item.GravePowerFeat01
+          - uuid: >-
+              Compendium.wizard-necromancer-subclass-ua.subclass-features.Item.UndeadThrlsFt001
+        optional: false
+      title: Features
+      icon: ''
+      value: {}
+    - _id: AdvSpellLevl6001
+      type: ItemGrant
+      level: 6
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.wizard-necromancer-subclass-ua.subclass-features.Item.IcmZQxA4lnLd05rb
+        optional: false
+        spell:
+          ability: []
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      title: Animate Dead (always prepared)
+      icon: ''
+      value: {}
+    - _id: AdvGrantLevl1001
+      type: ItemGrant
+      level: 10
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.wizard-necromancer-subclass-ua.subclass-features.Item.HarvestUnddFt001
+        optional: false
+      title: Features
+      icon: ''
+      value: {}
+    - _id: AdvGrantLevl1401
+      type: ItemGrant
+      level: 14
+      configuration:
+        items:
+          - uuid: >-
+              Compendium.wizard-necromancer-subclass-ua.subclass-features.Item.BolsterUnddFt001
+          - uuid: >-
+              Compendium.wizard-necromancer-subclass-ua.subclass-features.Item.ExtingshUnddFt01
+        optional: false
+      title: Features
+      icon: ''
+      value: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: null
+  systemVersion: null
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!NecromancerSub01'

@@ -1,0 +1,270 @@
+name: Find Familiar (Undead)
+system:
+  description:
+    value: >-
+      <p>You inscribe a binding sigil and intone the names of small dead things,
+      calling a spirit-fragment to inhabit a body of your choosing. The familiar
+      materializes in an unoccupied space within range and takes the statistics
+      of one form you select: Bat, Cat, Frog, Hawk, Lizard, Octopus, Owl, Rat,
+      Raven, Spider, Weasel, another Beast of Challenge Rating 0, or —
+      channeling your necromantic art — a Skeleton or Zombie (see <em>Player's
+      Handbook</em>, appendix B).</p><p>The chosen body bears the marks of its
+      other-than-living origin: bone glints under fur, eyes are clouded or
+      mirror-bright, skin sags in the wrong places. Despite appearances, the
+      familiar's creature type is whatever you choose at casting — Celestial,
+      Fey, or Fiend for the Beast forms; Undead for Skeleton or Zombie. The
+      grave-aesthetic does not, by itself, define the creature's nature; only
+      you know for certain what manner of thing has answered the call.</p><p>It
+      moves of its own will but heeds the commands you
+      give.</p><p><strong>Telepathic Connection.</strong> While the familiar is
+      within 100 feet of you, you can speak to it across the distance with your
+      mind alone. As a Bonus Action, you may also borrow its senses — seeing
+      what it sees, hearing what it hears, and gaining the benefits of any
+      special senses it has — until the start of your next turn.</p><p>When you
+      cast a spell whose range is touch, the familiar can deliver that touch on
+      your behalf, provided it is within 100 feet of you. Doing so costs the
+      familiar its Reaction, which it spends as you complete the
+      casting.</p><p><strong>Combat.</strong> The familiar fights at your side
+      as an ally. It has its own Initiative and acts on its own turn. A familiar
+      cannot attack, but every other action remains available to
+      it.</p><p><strong>Vanishing.</strong> When the familiar is reduced to 0
+      Hit Points, the binding fails and the body dissolves into ash, grave-dust,
+      or rags of half-formed essence; it returns the next time you cast this
+      spell. As a Magic action you may also dismiss the familiar deliberately,
+      sending it to a pocket dimension that smells of old earth and waiting; a
+      later Magic action recalls it to an empty space within 30 feet of you. A
+      permanent dismissal severs the link entirely. In any case where the
+      familiar vanishes, anything it was wearing or carrying is left behind in
+      its last-occupied space.</p><p><strong>Singularity.</strong> You may have
+      only one familiar at a time. Casting this spell while a familiar is
+      already bound to you instead reshapes the existing one into a new eligible
+      form.</p>
+    chat: ''
+  source:
+    custom: ''
+    rules: '2024'
+    license: CC-BY-4.0
+    book: ''
+    revision: 1
+  activation:
+    type: hour
+    condition: ''
+    value: 1
+  duration:
+    value: ''
+    units: inst
+  target:
+    affects:
+      type: space
+      count: '1'
+      choice: false
+      special: ''
+    template:
+      units: ft
+      contiguous: false
+      type: ''
+      stationary: false
+  range:
+    value: '10'
+    units: ft
+    special: ''
+  uses:
+    max: ''
+    recovery: []
+    spent: 0
+  level: 1
+  school: con
+  properties:
+    - vocal
+    - somatic
+    - material
+    - ritual
+  materials:
+    value: burning incense worth 10+ GP, which the spell consumes
+    consumed: true
+    cost: 0
+    supply: 0
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: summon
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        override: false
+        concentration: false
+      range:
+        override: false
+        units: self
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+          stationary: false
+        affects:
+          choice: false
+        override: false
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: ''
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes:
+        - undead
+      match:
+        proficiency: false
+        attacks: false
+        disposition: true
+        saves: false
+        ability: ''
+      profiles:
+        - count: ''
+          name: ''
+          _id: xmgXk2sqp3Vm72BS
+          uuid: Compendium.dnd5e.actors24.Actor.mmSkeleton000000
+          level:
+            min: null
+            max: null
+          types: []
+        - count: ''
+          name: ''
+          _id: imXyTVGbW91lEH77
+          uuid: Compendium.dnd5e.actors24.Actor.mmZombie00000000
+          level:
+            min: null
+            max: null
+          types: []
+      summon:
+        mode: ''
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      sort: 0
+      name: Summon Undead
+      img: ''
+      effects: []
+      flags: {}
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      tempHP: ''
+    7vCNxp5bbSFrkcPA:
+      type: summon
+      _id: 7vCNxp5bbSFrkcPA
+      img: ''
+      sort: 100000
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      bonuses:
+        ac: ''
+        hd: ''
+        hp: ''
+        attackDamage: ''
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: false
+        disposition: false
+        proficiency: false
+        saves: false
+        ability: ''
+      profiles:
+        - count: '1'
+          cr: '0'
+          name: CR 0 Beast
+          _id: iO1kLXFQP4v6qqQ4
+          uuid: null
+          types:
+            - beast
+          level:
+            min: null
+            max: null
+      summon:
+        prompt: true
+        mode: cr
+      name: Summon Familiar
+      tempHP: ''
+  identifier: find-familiar
+  method: spell
+  prepared: 0
+type: spell
+img: icons/creatures/magical/spirit-mischief-fire-blue.webp
+effects: []
+folder: KHuqWHcla7hF17Hr
+flags: {}
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777779812805
+  modifiedTime: 1777819151485
+  lastModifiedBy: s27KslIylCXYkeD1
+  exportSource: null
+  compendiumSource: null
+  duplicateSource: null
+ownership:
+  default: 0
+  s27KslIylCXYkeD1: 3
+_id: VFqblP4ULwJiJFhj
+sort: 100000
+_key: '!items!VFqblP4ULwJiJFhj'

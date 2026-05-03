@@ -1,0 +1,125 @@
+_id: ExtingshUnddFt01
+name: Extinguish Undead
+type: feat
+img: icons/magic/death/undead-ghost-strike-white.webp
+folder: NecFolder0000001
+sort: 700000
+ownership:
+  default: 0
+flags:
+  wizard-necromancer-subclass-ua:
+    feature: extinguish-undead
+effects: []
+system:
+  description:
+    value: >
+      <p><strong>Trigger.</strong> An Undead creature you can see is reduced to
+      0 hit points.</p>
+
+      <p><strong>Response — Reaction.</strong> While your spellbook is in hand,
+      you cause the Undead to detonate in necrotic energy. Roll a number of d6s
+      equal to half its unspent Hit Dice (rounded up, minimum 1d6); sum the
+      rolls.</p>
+
+      <p>Each creature in a 10-foot Emanation originating from the dying Undead
+      must succeed on a Dexterity saving throw or take Necrotic damage equal to
+      the total rolled, and cannot take Reactions until the start of its next
+      turn. On a successful save, a target takes half as much damage and is
+      otherwise unaffected.</p>
+
+      <p>If the Undead being detonated is not under your control, this Reaction
+      also requires you to expend a level 5 or higher spell slot.</p>
+    chat: ''
+  source:
+    book: UA8 — Arcane Subclasses Update (18 Sep 2025)
+    page: ''
+    custom: ''
+    license: Fan Content Policy
+    rules: '2024'
+  type:
+    value: class
+    subtype: ''
+  requirements: Wizard 14 (Necromancer)
+  prerequisites:
+    level: 14
+  activities:
+    ExtingshSave0001:
+      _id: ExtingshSave0001
+      type: save
+      name: Detonate
+      img: ''
+      sort: 0
+      activation:
+        type: reaction
+        value: 1
+        override: true
+        condition: an Undead you can see is reduced to 0 hit points
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        override: false
+        concentration: false
+      range:
+        units: self
+        override: true
+      target:
+        prompt: false
+        template:
+          contiguous: false
+          units: ft
+          stationary: false
+          type: radius
+          size: '10'
+        affects:
+          type: creature
+          count: ''
+          choice: false
+          special: ''
+        override: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      effects: []
+      flags: {}
+      damage:
+        onSave: half
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - necrotic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: 1
+              formula: ''
+      save:
+        ability:
+          - dex
+        dc:
+          calculation: spellcasting
+          formula: ''
+  uses:
+    max: ''
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777818985932
+  modifiedTime: 1777818985932
+  lastModifiedBy: s27KslIylCXYkeD1
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!ExtingshUnddFt01'

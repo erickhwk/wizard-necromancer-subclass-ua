@@ -1,0 +1,116 @@
+_id: BolsterUnddFt001
+name: Bolster Undead
+type: feat
+img: icons/magic/death/undead-skeleton-worn-blue.webp
+folder: NecFolder0000001
+sort: 600000
+ownership:
+  default: 0
+flags: {}
+effects: []
+system:
+  description:
+    value: >
+      <p>As a Bonus Action, while your spellbook is in hand, select any number
+      of Undead within 60 feet of you that you created or summoned with a
+      Necromancy spell. Each chosen Undead gains Temporary Hit Points equal to
+      your wizard level.</p>
+
+      <p><em>House rule (this implementation): you may use this feature once per
+      Long Rest, in place of the per-Undead 24-hour cooldown described in the
+      original UA text.</em></p>
+    chat: ''
+  source:
+    book: UA8 — Arcane Subclasses Update (18 Sep 2025)
+    page: ''
+    custom: ''
+    license: Fan Content Policy
+    rules: '2024'
+  type:
+    value: class
+    subtype: ''
+  requirements: Wizard 14 (Necromancer)
+  prerequisites:
+    level: 14
+  uses:
+    spent: 0
+    max: '1'
+    recovery:
+      - period: lr
+        type: recoverAll
+  activities:
+    BolsterTemp00001:
+      _id: BolsterTemp00001
+      type: heal
+      name: Bolster
+      img: ''
+      sort: 0
+      activation:
+        type: bonus
+        value: 1
+        override: true
+        condition: ''
+      consumption:
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: false
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        override: false
+        concentration: false
+      range:
+        value: '60'
+        units: ft
+        override: true
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+          stationary: false
+        affects:
+          type: creature
+          count: ''
+          choice: false
+          special: ''
+        override: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      effects: []
+      flags: {}
+      healing:
+        number: 0
+        denomination: 0
+        bonus: '@classes.wizard.levels'
+        types:
+          - temphp
+        custom:
+          enabled: false
+          formula: ''
+        scaling:
+          mode: ''
+          number: 1
+          formula: ''
+_stats:
+  coreVersion: '14.360'
+  systemId: dnd5e
+  systemVersion: 5.3.2
+  createdTime: 1777818959579
+  modifiedTime: 1777818959579
+  lastModifiedBy: s27KslIylCXYkeD1
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!BolsterUnddFt001'

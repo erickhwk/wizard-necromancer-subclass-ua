@@ -1,0 +1,70 @@
+_id: NecSpellbookFt01
+name: Necromancy Spellbook
+type: feat
+img: icons/sundries/books/book-face-blue.webp
+folder: NecFolder0000001
+sort: 200000
+ownership:
+  default: 0
+flags:
+  wizard-necromancer-subclass-ua:
+    feature: grim-harvest
+effects: []
+system:
+  description:
+    value: >
+      <p>The necromantic secrets recorded in your spellbook unlock additional
+      powers. You gain the following benefits.</p>
+
+      <p><strong>Necrotic Resistance.</strong> You have Resistance to Necrotic
+      damage.</p>
+
+      <p><strong>Grim Harvest.</strong> Whenever you expend a spell slot to cast
+      a Necromancy spell, you may target one Undead within 60 feet of you that
+      you can see. That creature regains hit points equal to the slot's level +
+      your wizard level.</p>
+
+      <p><strong>Undead Familiar.</strong> The spell <em>Find Familiar</em>
+      appears in your spellbook. When you cast it, you may pick from any of its
+      standard familiar forms or from these additional forms: Skeleton or Zombie
+      (statistics in Appendix B of the <em>Player's Handbook</em>).</p>
+    chat: ''
+  source:
+    book: UA8 — Arcane Subclasses Update (18 Sep 2025)
+    page: ''
+    custom: ''
+    license: Fan Content Policy
+    rules: '2024'
+  type:
+    value: class
+    subtype: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+  requirements: Wizard 3 (Necromancer)
+  prerequisites:
+    level: 3
+_stats:
+  coreVersion: '14.360'
+  systemId: null
+  systemVersion: null
+  createdTime: 1777819081463
+  modifiedTime: 1777819081463
+  lastModifiedBy: s27KslIylCXYkeD1
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+_key: '!items!NecSpellbookFt01'
