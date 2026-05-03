@@ -1,7 +1,7 @@
 _id: NecromancerSub01
 name: Necromancer
 type: subclass
-img: modules/wizard-necromancer-subclass-ua/assets/icons/subclass-necromancer.webp
+img: icons/magic/death/skull-humanoid-crown-white-blue.webp
 folder: ClsFolder0000001
 sort: 100000
 ownership:
