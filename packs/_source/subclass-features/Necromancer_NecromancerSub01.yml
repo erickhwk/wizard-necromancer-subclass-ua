@@ -126,6 +126,8 @@ system:
       configuration:
         items:
           - uuid: >-
+              Compendium.wizard-necromancer-subclass-ua.subclass-features.Item.DeathsMastrFt001
+          - uuid: >-
               Compendium.wizard-necromancer-subclass-ua.subclass-features.Item.BolsterUnddFt001
           - uuid: >-
               Compendium.wizard-necromancer-subclass-ua.subclass-features.Item.ExtingshUnddFt01

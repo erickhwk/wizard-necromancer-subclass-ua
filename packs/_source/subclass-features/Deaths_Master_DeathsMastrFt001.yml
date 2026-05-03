@@ -1,0 +1,35 @@
+_id: DeathsMastrFt001
+name: Death's Master
+type: feat
+img: icons/magic/death/undead-skeleton-lich-armor.webp
+folder: NecFolder0000001
+sort: 550000
+ownership:
+  default: 0
+flags: {}
+effects: []
+system:
+  description:
+    value: >
+      <p>The deepest secrets recorded in your spellbook reach past mere
+      manipulation of the dead and into mastery over death itself. These
+      rituals are too intricate to be carried in memory alone — they take
+      shape only with the book in hand and its pages open to your command.</p>
+
+      <p>While your spellbook is in hand, you wield two techniques over the
+      boundary between life and undeath: <strong>Bolster Undead</strong> and
+      <strong>Extinguish Undead</strong>, described in their own entries.</p>
+    chat: ''
+  source:
+    book: UA8 — Arcane Subclasses Update (18 Sep 2025)
+    page: ''
+    custom: ''
+    license: Fan Content Policy
+    rules: '2024'
+  type:
+    value: class
+    subtype: ''
+  requirements: Wizard 14 (Necromancer)
+  prerequisites:
+    level: 14
+_key: '!items!DeathsMastrFt001'
